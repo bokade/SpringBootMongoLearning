@@ -100,6 +100,7 @@ public class ProductController {
         return svc.searchByNamePart(q);
     }
 
+
     // parse sort helper
     private Sort.Order[] parseSortOrders(String[] sortParams) {
         // convert each "field,dir" into Sort.Order
